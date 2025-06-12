@@ -348,7 +348,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Future<void> _downloadApp() async {
-    const url = 'https://www.mediafire.com/file/tesoro_regional_app/tesoro_regional.apk/file';
+    const url = 'https://www.mediafire.com/file/tcyukmw8g45fxtr/Tesoro_Regiona.apk/file';
 
     try {
       if (await canLaunchUrl(Uri.parse(url))) {
